@@ -1,0 +1,19 @@
+form {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 50vh;
+  .text {
+    padding: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  #createProductBtn {
+    background-color: black;
+    color: white;
+    &:hover {
+      background-color: lightblue;
+      color: rgb(67, 44, 44);
+    }
+  }
+}

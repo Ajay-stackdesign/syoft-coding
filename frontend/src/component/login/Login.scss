@@ -1,0 +1,30 @@
+.login {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    .text {
+      padding: 10px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .submit {
+      margin-top: 10px;
+      //   padding-left: 15px;
+      //   padding-right: 15px;
+      padding: 10px 70px;
+      color: black;
+      background-color: whitesmoke;
+      &:hover {
+        color: wheat;
+        background-color: blueviolet;
+      }
+    }
+  }
+}
